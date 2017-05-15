@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button,input,select{
+    outline: none;
+}
+.main:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+/*头部*/
+.header{
+    width: 1175px;
+    height: 100px;
+    margin: 0 auto;
+    padding-left:25px;
+}
+/*logo*/
+.header>a{
+    padding-top: 13px;
+}
+.header>a,.header>a>img{
+    width: 85px;
+    height: 73px;
+    float: left;
+}
+/*导航*/
+.nav{
+    width:755px;
+    height: 48px;
+    padding-top: 52px;
+    float: left;
+}
+.nav li{
+    float: left;
+    margin-left: 35px;
+    padding: 0 5px;
+    font: 20px/44px "Microsoft YaHei";
+    border-bottom: 4px solid #fff;
+    position: relative;
+}
+.nav li>a{
+    color: #333;
+}
+.nav li>i{
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 6px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.nav li:hover,.nav li:hover i{
+    border-bottom-color: #549560;
+}
+/*登录注册*/
+.login{
+    width: 260px;
+    height: 50px;
+    padding-top: 50px;
+    margin-left: 75px;
+    float: left;
+}
+/*手机下载*/
+.login>.phone{
+    width: 21px;
+    height: 50px;
+    float: left;
+    position: relative;
+    z-index: 88;
+    background: url("../images/phone.png") no-repeat;
+}
+.code{
+    width: 216px;
+    height: 262px;
+    position: absolute;
+    top: 100%;
+    left: -101px;
+    background: #fff;
+    border: 4px solid #fc9c20;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+}
+.code>i{
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 14px solid #fc9c20;
+    position: absolute;
+    z-index: 1;
+    top:-14px;
+    left: 50%;
+    margin-left: -7px;
+}
+.code>i.white{
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 6px solid #fff;
+    position: absolute;
+    z-index: 2;
+    top:-6px;
+    left: 50%;
+    margin-left: -3px;
+}
+.code>p{
+    width: 216px;
+    height: 53px;
+    line-height: 53px;
+}
+.buttom{
+    width: 216px;
+    height: 46px;
+    padding-top: 10px;
+    background: #549560;
+    margin-top: 21px;
+}
+.buttom>p{
+    width: 216px;
+    height: 46px;
+    line-height: 46px;
+}
+.login>.phone:hover{
+    background: url("../images/phone01.png") no-repeat;
+}
+.login>.phone:hover .code{
+    display: block;
+}
+/*登录注册*/
+.login_m{
+    width: 118px;
+    height: 50px;
+    padding-left: 37px;
+    margin-left: 48px;
+    float: left;
+    background: url("../images/person.png") no-repeat;
+}
+.login_m ul li{
+    padding: 0 10px;
+    float: left;
+    line-height: 50px;
+}
+.login_m ul li>a{
+    color: #333;
+}
+.login_m ul li.line{
+    width: 1px;
+    height: 16px;
+    background: #888;
+    padding:0;
+    margin-top: 17px;
+}
+/*购物车*/
+.login>span{
+    width: 36px;
+    height: 35px;
+    float: left;
+    background: url("../images/shopping.png") no-repeat;
+}
+/*banner*/
+.banner{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner ul li{
+    width: 1920px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+
+/*main*/
+.main{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.main>p{
+    height: 180px;
+    line-height: 180px;
+    font-size: 20px;
+    color: #59926e;
+    text-align: center;
+    letter-spacing: 24px;
+}
