@@ -155,7 +155,10 @@ button,input,select{
     float: left;
     line-height: 50px;
 }
-.login_m ul li>a{
+.login_m ul li>button{
+    outline: none;
+    border: none;
+    background: none;
     color: #333;
 }
 .login_m ul li.line{
@@ -201,4 +204,10 @@ button,input,select{
     color: #59926e;
     text-align: center;
     letter-spacing: 24px;
+}
+/*标题*/
+.main_title{
+    width: 1200px;
+    height: 260px;
+    background: url("../images/bt1.png") no-repeat center;
 }

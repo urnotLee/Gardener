@@ -29,3 +29,7 @@
     },function(){
         autoPlay();
     })
+// var w=document.body.clientWidth;
+// var h=document.body.clientHeight;
+// alert(w);
+// alert(h);
